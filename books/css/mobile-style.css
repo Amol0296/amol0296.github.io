@@ -39,7 +39,7 @@
         font-size: 8vmin;
     }
 
-    .section-3 .carousel-item {
+    .section-4 .carousel-item {
         padding-left: 0.6rem;
     }
 
@@ -49,14 +49,16 @@
         align-content: center;
     }
 
-    .section-4.carousel-inner {
+    .section-4 .carousel-inner {
         width: 24rem;
     }
 
-    @media only screen and (max-width:425px) {
-        footer .row .col-md-2 {
-            margin-top: 8vmin;
-        }
+
+}
+
+@media only screen and (max-width:425px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
     }
 }
 
