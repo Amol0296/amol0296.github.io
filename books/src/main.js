@@ -1,7 +1,9 @@
 let navbar = $(".navbar");
 
 $(window).scroll(function () {
+
     let oTop = $(".section-2").offset().top - window.innerHeight;
+
     if ($(window).scrollTop() > oTop) {
         navbar.addClass("sticky");
     } else {
@@ -17,7 +19,7 @@ let nCount = function (selector) {
             duration: 4000,
             easing: "swing",
             step: function (value) {
-                $(this).text(Math.cell(value));
+                $(this).text(Math.ceil(value));
             }
         })
     });
